@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    margin-bottom: 50px;
+    text-align: center;
+    font-family: 'Babylonica', cursive;
+
+}
+.stage{
+    margin: auto;
+    width: 500px;
+    height: 500px;
+}
+.square{
+    position: relative;
+    background-color: rgb(231, 182, 118);
+    display: inline-block;
+    width: 164px;
+    height: 164px;
+
+}
+
+.o:after{
+    position: absolute;
+    content: "\1F6E1";
+    font-size: 180px;
+    line-height: 100px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.x:after{
+    position: absolute;
+    content: "\2694";
+    font-size: 180px;
+    line-height: 100px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
